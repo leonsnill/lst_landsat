@@ -17,8 +17,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The minimal installation of the Earth Engine Python API is required (see: https://developers.google.com/earth-engine/python_install)
-The following commands need to be executable without any error messages:
+The installation of the Earth Engine Python API is required (see: https://developers.google.com/earth-engine/python_install).
+After installation, the following commands need to be executable without any error messages:
 
 ```
 import ee
