@@ -17,11 +17,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The minimal installation of the Earth Engine Python API is required (see: https://developers.google.com/earth-engine/python_install)
+The following commands need to be executable without any error messages:
 
 ```
-Give examples
+import ee
+ee.Initialize()
 ```
+
 
 ### Installing
 
