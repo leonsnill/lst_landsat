@@ -1,6 +1,6 @@
 # Landsat Land Surface Temperature (LST) Retrieval – Google Earth Engine (GEE) Implementation
 
-Method used by ...(2019) (link/doi)
+Implementation described in more detail in ...(2019) (link/doi)
 
 Google Earth Engine (GEE) Implementation of the Single-Channel (SC) algorithm developed by Jiménez-Muñoz & Sobrino (2003), 
 Jiménez-Muñoz et al. (2009) and Jiménez-Muñoz et al. (2014) for retrieving statistical metrics of LST
@@ -25,10 +25,12 @@ The user defined surface parameters (list down below) will then be retrieved and
 
 #### Surface Parameters and Statistical Metrics
 
-Currently the following parameters and metrics are implemented (with the possibility to be easily extended):
+Implemented Parameters:
 - Land Surface Temperature ('LST'), Normalized Difference Vegetation Index ('NDVI'), Normalized Difference Water Index after Gao (1996) ('NDWI'), Tasseled Cap Greenness ('TCG'), Brightness ('TCB') and Wetness ('TCW') using the surface reflectance coefficients from Christ (1985).
+Implemented Statistical Metrics:
+- Mean ('mean'), Minimum ('min'), Maximum ('max'), Standard Deviation ('std'), Median ('median'), Percentiles ('percentile'), Theil-Sen slope coefficient ('ts') 
 
-Example, how to add another index to the script (here: Enhanced Vegetation Index; EVI):
+The parameters and metrics can easily extended by the user. For example, adding the Enhanced Vegetation Index (EVI) to the sript works like this:
 
 Define function in 'FUNCTIONS' section:
 ```
