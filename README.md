@@ -31,9 +31,9 @@ Implemented Parameters:
 Implemented Statistical Metrics:
 - Mean ('mean'), Minimum ('min'), Maximum ('max'), Standard Deviation ('std'), Median ('median'), Percentiles ('percentile'), Theil-Sen slope coefficient ('ts') 
 
-The parameters and metrics can easily extended by the user. For example, adding the Enhanced Vegetation Index (EVI) to the sript works like this:
+The parameters and metrics can easily extended by the user. For example, adding the Enhanced Vegetation Index (EVI) to the sript would work like the following:
 
-Define function in 'FUNCTIONS' section:
+Define the function in 'FUNCTIONS' section:
 ```
 def fun_evi(img):
     evi = img.expression(
@@ -49,7 +49,7 @@ def fun_evi(img):
                          }).rename('EVI')
     return img.addBands(evi)
 ```
-Add calculation to other index calculations:
+Add the index calculation to the map-functions:
 ```
 imgCol_merge = imgCol_merge.map(fun_evi)
 ```
