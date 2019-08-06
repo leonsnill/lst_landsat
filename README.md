@@ -27,6 +27,7 @@ The user defined surface parameters (list down below) will then be retrieved and
 
 Implemented Parameters:
 - Land Surface Temperature ('LST'), Normalized Difference Vegetation Index ('NDVI'), Normalized Difference Water Index after Gao (1996) ('NDWI'), Tasseled Cap Greenness ('TCG'), Brightness ('TCB') and Wetness ('TCW') using the surface reflectance coefficients from Christ (1985).
+
 Implemented Statistical Metrics:
 - Mean ('mean'), Minimum ('min'), Maximum ('max'), Standard Deviation ('std'), Median ('median'), Percentiles ('percentile'), Theil-Sen slope coefficient ('ts') 
 
