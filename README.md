@@ -1,7 +1,5 @@
 # Landsat Land Surface Temperature (LST) Retrieval – Google Earth Engine (GEE) Implementation
 
-Implementation described in more detail in ...(2019) (link/doi)
-
 Google Earth Engine (GEE) Implementation of the Single-Channel (SC) algorithm developed by Jiménez-Muñoz & Sobrino (2003), 
 Jiménez-Muñoz et al. (2009) and Jiménez-Muñoz et al. (2014) for retrieving statistical metrics of LST
 (and multispectral indices) from Landsat TM, ETM+ and OLI-TIRS data.
