@@ -6,7 +6,7 @@ Jiménez-Muñoz et al. (2009) and Jiménez-Muñoz et al. (2014) for retrieving s
 The atmospheric functions used in the LST algorithm are approximated using data on atmospheric water vapor content from the NCEP/NCAR Reanalysis Data available within the GEE data catalogue. Currently, the approximation is optimized for high-latitude regions with usually low water vapor content.
 Surface emissivity is calculated using the Simplified Normalized Difference Vegetation Index Threshold (SNDVI) approach as described by Sobrino et al. (2008).
 
-Reference:
+#### Reference:
 Nill, L., Ullmann, T., Kneisel, C., Sobiech-Wolf, J. & Baumhauer, R.: Assessing Spatiotemporal Variations of Landsat Land Surface Temperature and Multispectral Indices in the Arctic Mackenzie Delta Region between 1985 and 2018. Remote Sensing. 2019, 11, 2329. DOI: https://doi.org/10.3390/rs11192329
 
 ### Prerequisites
